@@ -12,6 +12,7 @@ http://assets1.yourassethost.com/javascripts/1234263214/prototype.js
 Installation
 ============
 
+cd rails_project_base_dir && script/plugin install git://github.com/wjessop/asset-format.git
 
 
 Copyright (c) 2009 Will Jessop (http://willj.net), released under the MIT license
