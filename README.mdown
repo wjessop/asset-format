@@ -1,0 +1,17 @@
+Asset-Format plugin
+===========
+
+Install this plugin to force the asset_id to become part of the path to the asset rather than appended to the end with a question mark, so for example:
+
+http://assets1.yourassethost.com/javascripts/prototype.js?1234263214
+
+becomes:
+
+http://assets1.yourassethost.com/javascripts/1234263214/prototype.js
+
+Installation
+============
+
+
+
+Copyright (c) 2009 Will Jessop (http://willj.net), released under the MIT license
