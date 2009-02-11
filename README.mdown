@@ -26,7 +26,7 @@ Why do this?
 
 The problem with this approach (which is commonly used in Rails and other popular web frameworks, by the way) is that some proxies on the web are misconfigured to ignore this cache code if the resource you are requesting ends in a “static” resource extension such as .js, .html, etc.  The result was that some proxies would keep your old assets cached when you deployed new versions, even if your cache code changed."
 
-  - [original]: http://www.sproutcore.com/2009/01/08/sproutcore-0921-a-better-world-through-caching-release/
+  -- [source](http://www.sproutcore.com/2009/01/08/sproutcore-0921-a-better-world-through-caching-release/)
 
 Installation
 ============
