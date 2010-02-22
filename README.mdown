@@ -19,6 +19,10 @@ becomes:
 
 You then need to add a rewrite on which ever server hosts your assets to rewrite the URL including the asset id back to the original asset, eg. /javascripts/1234263214/prototype.js -> /javascripts/prototype.js
 
+Apache example:
+	RewriteEngine on
+	RewriteRule   ^(.*)/(\d+)/(.*\.\w+)$    $1/$3
+
 Why do this?
 ============
 
